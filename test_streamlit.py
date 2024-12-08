@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import math
 
-st.title("🏦 Home Loan Calculator")
+st.title("Home Loan Calculator")
 st.subheader(":rainbow[Calculate your home loan payments with ease]")
 col1, col2 = st.columns(2)
 home_value = col1.number_input("Home Value", min_value=0, value=5000000)
